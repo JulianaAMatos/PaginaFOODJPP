@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.menu-navegacao{
+    height: 65px;
+    background-color: white;
+}
+
+.botao-entrar{
+    height: 9px;
+    display: flex;
+    border-radius: 8px;
+    border: solid;
+    padding: 20px;
+    align-items: center;
+    justify-self:flex-end;
+    
+}
+
+
+.menu-navegacao>ul{
+    height: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    padding: 2rem;
+    justify-self: flex-start;
+    align-items: center;
+}
+
+
+.menu-navegacao a {
+    height: 100%;
+    display: flex;
+    align-items:center;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+   padding: 1.5rem;
+}
+
+.menu-navegacao img{
+    height: 40%;
+    display: flex;
+    align-items:self-end;
+    padding-top: 5%;
+    justify-content: center;
+    padding: 8px;
+}
+.comida-japonesa{
+    align-items: center;
+    padding: 10rem;
+    justify-content: start ;
+    padding-left: 9%;
+}
+
+.comida-japonesa>h1{
+    font-size: 3rem;
+    align-items: start;
+    justify-content: start;
+    padding: 2rem;
+}
+
+.comida-japonesa>p{
+    font-size: 1.6rem;
+    justify-content: center;
+    padding-left: 3%;
+    
+}
+
+.botao-cardapio{
+  height: 42px;
+  margin: 25px;
+  background-color: rgb(233, 80, 80);
+  border-radius: 9px;
+  margin-top: 5%;
+  margin-left: 4%;
+  padding: 0 5rem;
+  color: white;
+  cursor: pointer;
+}
+
+.Imagem-sushi{
+    height: 50%;
+    width:19%;   
+    display: inline-block;
+    top: 120px;
+    right: 90px;
+    position: absolute;
+    padding: 5rem;
+}
+
+.prato-comida{
+    height: 400px;
+    width: 450px;
+    display: flex;
+    margin-left: 12%;
+}
+
+.tradicional-prato>h2{
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+   margin: 2px;
+    left: 50%;
+    position:absolute;
+    margin-inline-end: 26rem;
+}
+.tradicional-prato>p{
+    justify-content: center;
+    left: 50%;
+    margin-top: 13%;
+    margin-inline-end: 15rem;
+    position:absolute;
+}
+.tradicional-prato a{
+    justify-content: start;
+    padding: 15rem;
+    margin-top: 2px;
+    left: 31%;
+    color: rgb(232, 66, 66);
+    text-decoration: underline;
+    position:absolute;
+}
+
+section>h3{
+    display: block;
+    position:absolute;
+    font-size: 2.5rem;
+    right: 38%;
+    align-items: start;
+    margin-top: 1%;
+    justify-content: center;
+   
+}
+
+.container{
+    display: flex;
+    justify-content:center;
+    margin-inline-end: 1rem;
+}
+
+.card {
+    margin: 13px;
+    background-color:#F3F3F3;
+    ;;
+    width: 190px;
+    height: 240px;
+    border-radius: 12px;
+    margin-top: 10%;
+    margin-left: 10px;
+    padding: 8px;
+
+}
+
+.card h4{
+    font-size: 1.3rem;
+    align-items: center;
+    margin: 5%;
+}
+.card>p{
+    align-items: center;
+    margin: 5%;
+    font-size: 1rem;
+   color: rgb(104, 104, 102);
+}
+
+
+
+.prato-popular{
+    width: 160px;
+    height: 160px;
+    border-radius: 90px;
+    position: relative;
+    margin-top: -70px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+}
+
+.prato-popular2{
+    width: 160px;
+    height: 160px;
+    border-radius: 90px;
+    position: relative;
+    margin-top: -70px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.prato-popular3{
+    width: 160px;
+    height: 170px;
+    border-radius: 90%;
+    position: relative;
+    margin-top: -70px;
+    margin-left: 20px;
+    margin-bottom: 80px;
+    margin-block-end: 10px;
+}
+
+.comentarios{
+    font-size: 2rem;
+    position:absolute;
+    left: 201px;
+    align-items: center;
+    margin-top: 2%;
+    justify-content: start;
+}
+.quadrado {
+    margin: 40%;
+    background-color: #F3F3F3;
+    ;
+    width: 350px;
+    height: 210px;
+    border-radius: 12px;
+    margin-top: 90px;
+    margin-left:1rem;
+    margin-right:1rem;
+    padding: 30px;
+     
+} 
+.estrelas{
+    margin-top: 1px;
+}
+.comentarioUser{
+    display:flex;
+    justify-content:center;
+    margin-right: 2px;
+}
+
+.comentarioUser h8{
+    font-size: 1.5rem;
+    align-items: start;
+}
+.comentarioUser p{
+    margin: 15px;
+    align-items: start;
+    margin-inline-end: 10%;
+    color:rgb(104, 104, 102);
+}
+
+
+.foto-comentario1{
+    width: 65px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+.foto-comentario2{
+    width: 20%;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.localizacao-mapa{
+    font-size: 2rem;
+    margin-top: 29%;
+    position:absolute;
+    right: 72%;
+    margin-top: 32%;
+}
+
+.imagem-mapa{
+    height: 350px;
+    display: flex;
+    margin-top: 34px;
+    justify-content: center;
+    position: absolute;
+    left: 5%;
+    right: 90%; 
+}
+.input-mapa{
+    display: flex;
+    /* width: 100px; */
+    height: 100%;
+    margin-top: 450px;
+    position: absolute;
+
+}
+
+
+input{
+   border-radius:5px 0 0 5px;
+   height: 95%;
+   width: 360px;
+   margin-top: 4px;
+   background-image: url(fi_map-pin.jpg);
+   background-repeat: no-repeat;
+   display: flex;
+   text-indent:40px;
+   margin-left: 190px;
+   align-items: center;
+   border: 1 solid;
+}
+
+.botao-buscar{
+    height: 37px;
+    width: 120px;
+    margin-top: 4px;
+    background-color: rgb(245, 48, 48);
+    color: white;
+    border-radius: 0 5px 5px 0;
+    border: solid rgb(245, 48, 48);
+
+}
+.rodape-pagina>ul{
+    
+    display: flex; 
+    font-size: 1rem;
+    margin: 30%;
+    right: 35px;
+    bottom:250px;
+    justify-content:space-around;
+    margin-left: 19%;
+    position:relative;
+    align-items: start;
+
+
+}
+.rodape-pagina img{
+    bottom: 6px;
+}
+.rodape-pagina a{
+    color: black;
+    font-size: 1.8rem;
+    margin-inline-start: 0.5rem;
+    }
+
+.rodape-pagina p{
+    color: rgb(104, 104, 102);
+    font-size: 15px;
+    margin: 9px;
+    margin-inline-end: 3px;
+}
+
+.li {
+    margin-top: 550px;
+    list-style-type: none;
+}
+
